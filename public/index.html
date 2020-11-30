@@ -23,12 +23,16 @@
   <title>Sentry Demo</title>
 
   <!-- Import SDK -->
-  <script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" crossorigin="anonymous"></script>
+  <script
+  src="https://browser.sentry-cdn.com/5.26.0/bundle.tracing.min.js"
+  integrity="sha384-o3PmxWd0Sgy+qiulNfK/K+YxK4Neya0uoBhAdI1YCdS6yuHZM7vN8v9r0cBDmQ9K"
+  crossorigin="anonymous"
+  ></script>
 
   <!-- Configure SDK -->
   <script>
     Sentry.init({
-      dsn: '<PASTE YOUR DSN KEY HERE>'
+      dsn: 'http://d97a60448f1b472899130c08a74294dc@sentry.devops-sandbox.ableto.com/3'
     });
   </script>
 <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
